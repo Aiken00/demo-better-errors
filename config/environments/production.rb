@@ -88,4 +88,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  BetterErrors::Middleware.allow_ip! "0.0.0.0/0"
 end
