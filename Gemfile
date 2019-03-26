@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '2.6.5'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -13,7 +13,7 @@ gem 'rails', '~> 5.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
